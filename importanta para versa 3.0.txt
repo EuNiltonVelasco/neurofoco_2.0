@@ -1,0 +1,36 @@
+1️⃣ Definir o roadmap do EuMentor (próxima versão)
+
+Pense em níveis de dificuldade e funcionalidades como camadas que você adiciona gradualmente:
+
+Nível Inicial (já tem)
+Sessão de foco com cronômetro
+Mini-desafios de frases motivacionais
+Quiz básico de lógica
+Nível Intermediário
+Sessões mais longas ou com desafios mais complexos
+Ranking de usuários por pontuação ou streak (consecutivos)
+Feedback visual de progresso
+Nível Avançado / Premium
+Módulos de auto-reflexão, estoicismo, neuroplasticidade
+Estatísticas detalhadas de desempenho
+Áudios binaurais avançados e personalizáveis
+Recompensas virtuais ou badges
+2️⃣ Funcionalidades que aumentam valor para investidores
+Gamificação: pontos, badges, níveis → aumenta engajamento.
+Painel de progresso: gráficos de desempenho, evolução do usuário.
+Conteúdo extra pago (freemium): áudio avançado, quizzes especiais.
+Mobile ou PWA: maior acessibilidade → escala de usuários.
+Integração com comunidade: fóruns, desafios, compartilhamento.
+3️⃣ Como começar a implementação sem se perder
+Escolha uma funcionalidade principal por vez (ex.: ranking de usuários).
+Crie um branch no GitHub para cada funcionalidade → permite testar sem quebrar o que já funciona.
+Teste com um pequeno grupo de usuários reais → feedback rápido.
+Só depois de consolidar uma camada, passe para a próxima (intermediário, avançado, premium).
+4️⃣ Próximo passo prático
+
+Para não travar: podemos começar pela primeira melhoria que faz diferença para investidores, por exemplo:
+
+Adicionar níveis de dificuldade nas sessões e no quiz.
+Ou criar pontuação e streak para o usuário.
+
+Isso já transforma o NeuroFoco em algo mais robusto e apresentável para pitch ou futuros investidores.
