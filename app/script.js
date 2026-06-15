@@ -43,8 +43,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const errosEl = document.getElementById("erros");
     const percentualEl = document.getElementById("percentual");
     const nextBtn = document.getElementById("nextBtn");
+    const finalizarBtn = document.getElementById("finalizarBtn");
     const mensagemFinalEl = document.getElementById("mensagemFinal");
-
     const toggleHz = document.getElementById("toggleHz");
     const audioElement = document.getElementById("audio15hz");
 
@@ -217,6 +217,10 @@ document.addEventListener("DOMContentLoaded", function() {
     desenharGrafico();
     atualizarStats();
 
-    nextBtn.addEventListener("click", mostrarPergunta);
+   nextBtn.addEventListener("click", mostrarPergunta);
+
+finalizarBtn.addEventListener("click", () => {
+    window.location.href = "final.html";
+});
 
 });

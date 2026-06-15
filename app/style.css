@@ -195,6 +195,29 @@ canvas {
   text-align: center;
 }
 
+#finalizarBtn {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+
+  border: none;
+  border-radius: 20px;
+
+  background: #38bdf8;
+  color: white;
+  font-weight: bold;
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  box-shadow: 0 0 10px #38bdf8;
+}
+
+#finalizarBtn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px #38bdf8;
+}
+
 /* ===== RESPONSIVO ===== */
 @media (max-width: 700px){
   .conteudo {
